@@ -1,0 +1,1 @@
+ <a href="">newly registered user: {{ ucfirst($notification->data['user']['name']) }}, user id: {{ $notification->data['user']['id'] }}</a>
