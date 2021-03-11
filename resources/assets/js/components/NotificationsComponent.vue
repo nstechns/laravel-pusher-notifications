@@ -43,7 +43,7 @@ export default {
       var notification = new Notification(notify.user.name + " is signup");
       notification.onclick = function (event) {
         event.preventDefault(); // prevent the browser from focusing the Notification's tab
-        window.open('https://blog-notify.test/admin/user/profile/' + notify.user.id, '_blank');
+        window.open('http://blog-notify.test/admin/user/profile/' + notify.user.id, '_blank');
       }
 
     }
